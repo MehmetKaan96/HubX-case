@@ -20,10 +20,10 @@
 		D38C8C4F2BD4057400B759F0 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C4B2BD4057400B759F0 /* Rubik-Bold.ttf */; };
 		D38C8C552BD4066900B759F0 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C542BD4066900B759F0 /* Font+Extension.swift */; };
 		D38C8C5C2BD4228900B759F0 /* GreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5B2BD4228900B759F0 /* GreenButton.swift */; };
-		D38C8C5E2BD425FC00B759F0 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */; };
 		D38C8C602BD432FB00B759F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5F2BD432FB00B759F0 /* OnboardingView.swift */; };
-		D38C8C622BD4390200B759F0 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C612BD4390200B759F0 /* OnboardingModel.swift */; };
 		D38C8C642BD4393300B759F0 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C632BD4393300B759F0 /* OnboardingViewModel.swift */; };
+		D38C8C682BD4467B00B759F0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C672BD4467B00B759F0 /* String+Extension.swift */; };
+		D38C8C6A2BD45BC800B759F0 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C692BD45BC800B759F0 /* PortraitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		D38C8C522BD405CA00B759F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D38C8C542BD4066900B759F0 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		D38C8C5B2BD4228900B759F0 /* GreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButton.swift; sourceTree = "<group>"; };
-		D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		D38C8C5F2BD432FB00B759F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		D38C8C612BD4390200B759F0 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		D38C8C632BD4393300B759F0 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		D38C8C672BD4467B00B759F0 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D38C8C692BD45BC800B759F0 /* PortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,6 @@
 		D38C8C442BD4037D00B759F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D38C8C612BD4390200B759F0 /* OnboardingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D38C8C542BD4066900B759F0 /* Font+Extension.swift */,
-				D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */,
+				D38C8C672BD4467B00B759F0 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				D38C8C5B2BD4228900B759F0 /* GreenButton.swift */,
+				D38C8C692BD45BC800B759F0 /* PortraitView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -357,14 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38C8C682BD4467B00B759F0 /* String+Extension.swift in Sources */,
 				D38C8C1B2BD4027A00B759F0 /* GetStartedView.swift in Sources */,
 				D38C8C5C2BD4228900B759F0 /* GreenButton.swift in Sources */,
 				D38C8C192BD4027A00B759F0 /* HubX_CaseApp.swift in Sources */,
 				D38C8C642BD4393300B759F0 /* OnboardingViewModel.swift in Sources */,
+				D38C8C6A2BD45BC800B759F0 /* PortraitView.swift in Sources */,
 				D38C8C602BD432FB00B759F0 /* OnboardingView.swift in Sources */,
-				D38C8C622BD4390200B759F0 /* OnboardingModel.swift in Sources */,
 				D38C8C552BD4066900B759F0 /* Font+Extension.swift in Sources */,
-				D38C8C5E2BD425FC00B759F0 /* Text+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

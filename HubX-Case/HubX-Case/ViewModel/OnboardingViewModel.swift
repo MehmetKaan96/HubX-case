@@ -11,14 +11,4 @@ import SwiftUI
 
 final class OnboardingViewModel {
     
-    var tabIndex: Int = 0
-    
-    @ObservationIgnored
-    let onboardingData: [OnboardingModel] = [
-    OnboardingModel(description: "Take a photo to identify the plant!", image: "Content"),
-    OnboardingModel(description: "Get plant care guides", image: "Content2")
-    ]
-    
-    
-    
 }

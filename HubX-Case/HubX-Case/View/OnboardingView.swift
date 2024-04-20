@@ -8,48 +8,47 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    @State private var onboardingText: String?
-    @State private var onboardingImage: Image?
-    
     var body: some View {
-        NavigationView{
+        NavigationView {
             ZStack {
-                Onboarding()
-                    
+                Image("Background", bundle: nil)
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+                TabView {
+                    Onboard1()
+                }
+                .tabViewStyle(.page(indexDisplayMode: .always))
+                .indexViewStyle(.page(backgroundDisplayMode: .always))
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .ignoresSafeArea()
         }
         .navigationBarHidden(true)
     }
     
     @ViewBuilder
-    private func Onboarding() -> some View {
-        VStack {
-            OnboardingContents()
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(.blue)
-        .ignoresSafeArea()
-    }
-    
-    @ViewBuilder
-    private func OnboardingContents() -> some View {
-        VStack {
-            Spacer()
-            HStack {
-                Text("Take a photo to ")
-                    .font(Font.setRubikRegular(with: 28))
-                + Text("identify\n")
-                    .font(Font.setRubikSemiBold(with: 28))
-                + Text("the plant!")
-                    .font(Font.setRubikRegular(with: 28))
-                Spacer()
-            }
-            .padding(EdgeInsets(top: 0, leading: 25, bottom: 0, trailing: 0))
-            Image("Content", bundle: nil)
-            
-            
+    private func Onboard1() -> some View {
+        GeometryReader { geometry in
+                VStack {
+                    if UIDevice.current.name == "iPhone SE (3rd generation)" {
+                        Spacer().frame(height: geometry.safeAreaInsets.top + 20)
+                    }
+                    HStack {
+                        Text("Take a photo to identify\n the plant!".makeAttributedString(substr: "identify", font: Font.setRubikSemiBold(with: 28)!, color: .black))
+                            .font(Font.setRubikRegular(with: 28))
+                        Spacer()
+                    }
+                    .padding(.leading, 20)
+                    .padding(.top)
+                    .lineLimit(2)
+                    
+                    HStack {
+                        Spacer()
+                        Image("Brush", bundle: nil)
+                            
+                    }
+                    
+                    Spacer().frame(height: geometry.safeAreaInsets.bottom)
+                }
         }
     }
 }
