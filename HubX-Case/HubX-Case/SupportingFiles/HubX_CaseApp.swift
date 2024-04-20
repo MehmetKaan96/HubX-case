@@ -11,7 +11,7 @@ import SwiftUI
 struct HubX_CaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GetStartedView()
         }
     }
 }

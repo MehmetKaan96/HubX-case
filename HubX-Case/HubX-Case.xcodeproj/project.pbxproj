@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D38C8C192BD4027A00B759F0 /* HubX_CaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C182BD4027A00B759F0 /* HubX_CaseApp.swift */; };
-		D38C8C1B2BD4027A00B759F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C1A2BD4027A00B759F0 /* ContentView.swift */; };
+		D38C8C1B2BD4027A00B759F0 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C1A2BD4027A00B759F0 /* GetStartedView.swift */; };
 		D38C8C1D2BD4027B00B759F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C1C2BD4027B00B759F0 /* Assets.xcassets */; };
 		D38C8C202BD4027B00B759F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C1F2BD4027B00B759F0 /* Preview Assets.xcassets */; };
 		D38C8C2A2BD4027B00B759F0 /* HubX_CaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C292BD4027B00B759F0 /* HubX_CaseTests.swift */; };
 		D38C8C342BD4027B00B759F0 /* HubX_CaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C332BD4027B00B759F0 /* HubX_CaseUITests.swift */; };
 		D38C8C362BD4027B00B759F0 /* HubX_CaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C352BD4027B00B759F0 /* HubX_CaseUITestsLaunchTests.swift */; };
+		D38C8C4C2BD4057400B759F0 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C482BD4057400B759F0 /* Rubik-Medium.ttf */; };
+		D38C8C4D2BD4057400B759F0 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C492BD4057400B759F0 /* Rubik-SemiBold.ttf */; };
+		D38C8C4E2BD4057400B759F0 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C4A2BD4057400B759F0 /* Rubik-Regular.ttf */; };
+		D38C8C4F2BD4057400B759F0 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C8C4B2BD4057400B759F0 /* Rubik-Bold.ttf */; };
+		D38C8C552BD4066900B759F0 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C542BD4066900B759F0 /* Font+Extension.swift */; };
+		D38C8C5C2BD4228900B759F0 /* GreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5B2BD4228900B759F0 /* GreenButton.swift */; };
+		D38C8C5E2BD425FC00B759F0 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */; };
+		D38C8C602BD432FB00B759F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C5F2BD432FB00B759F0 /* OnboardingView.swift */; };
+		D38C8C622BD4390200B759F0 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C612BD4390200B759F0 /* OnboardingModel.swift */; };
+		D38C8C642BD4393300B759F0 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C8C632BD4393300B759F0 /* OnboardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		D38C8C152BD4027A00B759F0 /* HubX-Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HubX-Case.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38C8C182BD4027A00B759F0 /* HubX_CaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubX_CaseApp.swift; sourceTree = "<group>"; };
-		D38C8C1A2BD4027A00B759F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D38C8C1A2BD4027A00B759F0 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		D38C8C1C2BD4027B00B759F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38C8C1F2BD4027B00B759F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D38C8C252BD4027B00B759F0 /* HubX-CaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HubX-CaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,17 @@
 		D38C8C2F2BD4027B00B759F0 /* HubX-CaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HubX-CaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38C8C332BD4027B00B759F0 /* HubX_CaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubX_CaseUITests.swift; sourceTree = "<group>"; };
 		D38C8C352BD4027B00B759F0 /* HubX_CaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubX_CaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D38C8C482BD4057400B759F0 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		D38C8C492BD4057400B759F0 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		D38C8C4A2BD4057400B759F0 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		D38C8C4B2BD4057400B759F0 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		D38C8C522BD405CA00B759F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D38C8C542BD4066900B759F0 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		D38C8C5B2BD4228900B759F0 /* GreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButton.swift; sourceTree = "<group>"; };
+		D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		D38C8C5F2BD432FB00B759F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D38C8C612BD4390200B759F0 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		D38C8C632BD4393300B759F0 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +115,13 @@
 		D38C8C172BD4027A00B759F0 /* HubX-Case */ = {
 			isa = PBXGroup;
 			children = (
-				D38C8C182BD4027A00B759F0 /* HubX_CaseApp.swift */,
-				D38C8C1A2BD4027A00B759F0 /* ContentView.swift */,
-				D38C8C1C2BD4027B00B759F0 /* Assets.xcassets */,
+				D38C8C522BD405CA00B759F0 /* Info.plist */,
+				D38C8C452BD4038900B759F0 /* Service */,
+				D38C8C442BD4037D00B759F0 /* Model */,
+				D38C8C432BD4037500B759F0 /* View */,
+				D38C8C422BD4036E00B759F0 /* ViewModel */,
+				D38C8C462BD404E800B759F0 /* SupportingFiles */,
+				D38C8C532BD4064A00B759F0 /* Extensions */,
 				D38C8C1E2BD4027B00B759F0 /* Preview Content */,
 			);
 			path = "HubX-Case";
@@ -125,6 +150,77 @@
 				D38C8C352BD4027B00B759F0 /* HubX_CaseUITestsLaunchTests.swift */,
 			);
 			path = "HubX-CaseUITests";
+			sourceTree = "<group>";
+		};
+		D38C8C422BD4036E00B759F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C632BD4393300B759F0 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D38C8C432BD4037500B759F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C582BD421DC00B759F0 /* CustomViews */,
+				D38C8C1A2BD4027A00B759F0 /* GetStartedView.swift */,
+				D38C8C5F2BD432FB00B759F0 /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D38C8C442BD4037D00B759F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C612BD4390200B759F0 /* OnboardingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D38C8C452BD4038900B759F0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D38C8C462BD404E800B759F0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C472BD4050300B759F0 /* Font */,
+				D38C8C182BD4027A00B759F0 /* HubX_CaseApp.swift */,
+				D38C8C1C2BD4027B00B759F0 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D38C8C472BD4050300B759F0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C4B2BD4057400B759F0 /* Rubik-Bold.ttf */,
+				D38C8C482BD4057400B759F0 /* Rubik-Medium.ttf */,
+				D38C8C4A2BD4057400B759F0 /* Rubik-Regular.ttf */,
+				D38C8C492BD4057400B759F0 /* Rubik-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D38C8C532BD4064A00B759F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C542BD4066900B759F0 /* Font+Extension.swift */,
+				D38C8C5D2BD425FB00B759F0 /* Text+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D38C8C582BD421DC00B759F0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D38C8C5B2BD4228900B759F0 /* GreenButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +327,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38C8C4C2BD4057400B759F0 /* Rubik-Medium.ttf in Resources */,
+				D38C8C4F2BD4057400B759F0 /* Rubik-Bold.ttf in Resources */,
 				D38C8C202BD4027B00B759F0 /* Preview Assets.xcassets in Resources */,
 				D38C8C1D2BD4027B00B759F0 /* Assets.xcassets in Resources */,
+				D38C8C4E2BD4057400B759F0 /* Rubik-Regular.ttf in Resources */,
+				D38C8C4D2BD4057400B759F0 /* Rubik-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38C8C1B2BD4027A00B759F0 /* ContentView.swift in Sources */,
+				D38C8C1B2BD4027A00B759F0 /* GetStartedView.swift in Sources */,
+				D38C8C5C2BD4228900B759F0 /* GreenButton.swift in Sources */,
 				D38C8C192BD4027A00B759F0 /* HubX_CaseApp.swift in Sources */,
+				D38C8C642BD4393300B759F0 /* OnboardingViewModel.swift in Sources */,
+				D38C8C602BD432FB00B759F0 /* OnboardingView.swift in Sources */,
+				D38C8C622BD4390200B759F0 /* OnboardingModel.swift in Sources */,
+				D38C8C552BD4066900B759F0 /* Font+Extension.swift in Sources */,
+				D38C8C5E2BD425FC00B759F0 /* Text+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +531,7 @@
 				DEVELOPMENT_TEAM = 8TRXM8F5W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HubX-Case/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +561,7 @@
 				DEVELOPMENT_TEAM = 8TRXM8F5W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HubX-Case/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
